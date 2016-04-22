@@ -1,0 +1,60 @@
+BODY { 
+   font: 12pt Verdana, Geneva, Arial, Helvetica, sans-serif;    
+   text-align: left; 
+   background-color: #ffffff; 
+   color: #foo;
+   
+   
+} 
+
+#wrapper1{
+	visibility:hidden;	
+} 
+
+#wrapper1 img{
+	visibility:hidden;	
+	display:none;	
+} 
+
+#muestra {
+	visibility:visible;
+	display:block;
+	margin-left: 25px;
+} 
+
+
+#logo img{	
+	visibility:visible;
+	display:inline;
+}
+
+#fecha{	
+	visibility:visible;
+	display:inline;	
+}
+
+#fecha img{	
+	visibility:visible;
+	display:block;	
+}
+
+
+
+.slider-wrapper{
+	visibility:hidden;	
+	display:none;	
+}
+
+.tit { font-family:Arial, Helvetica, sans-serif; color:#0D5993; font-size:18px;
+		margin: 10px 0px 10px 0px;
+}
+
+#panel{
+	visibility:hidden;	
+	display:none;	
+}
+
+#cont_250{
+visibility:hidden;	
+	display:none;	
+}

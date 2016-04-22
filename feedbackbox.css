@@ -1,0 +1,65 @@
+body { 
+	margin:0; 
+	padding:0; 
+	}
+	
+form {
+	font:13px Georgia, "Times New Roman", Times, serif;
+	background:#EDEEF0;
+	margin:0px;
+	padding:0px;
+	width:571px;	
+	border:0px solid #555;
+	}
+
+	form label {
+		font:11px Georgia, "Times New Roman", Times, serif;
+		color:#727272;
+		/* padding:10px 0 0 35px; */
+		border:0px solid #000;
+		/* height:40px; */
+	}
+
+	form input {
+		padding-left:5px;
+		font:12px Georgia, "Times New Roman", Times, serif;
+		border:0px solid #999999;
+		background:#F9F9F9;
+		height:22px;
+		color:#000;
+		}
+
+		form textarea {
+			padding:5px;
+			font:13px Georgia, "Times New Roman", Times, serif;
+			border:0px solid #999999;
+			background:#F9F9F9;
+			width:210px;
+			height:40px;
+			margin:0 0 0 25px; 
+		} 
+		
+		form input:focus,
+		form textarea:focus {
+			outline: none;
+			border:0px solid #666;
+			background:#FFFFFF;
+		}
+
+	#replacement-2 {
+	  border: 1px;
+      width: 223px;
+      height: 44px;
+      padding: 0 0 0 0;
+      margin: 25px 0 0 0px;
+      border: 0;
+      background: transparent url(images/sendfeedback.png) no-repeat top left;
+      overflow: hidden;
+      vertical-align: middle;
+      cursor: pointer; /* hand-shaped cursor */
+      cursor: hand; /* IE 5.x */
+    }
+
+    form>#replacement-2 { /* For non-IE browsers*/
+      height: 0px;
+    }

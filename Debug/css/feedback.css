@@ -1,0 +1,22 @@
+/* CSS Document */
+*{margin:0px;padding:0px;}
+#feedbackPost
+{
+	background:transparent url(../images/pestagna.png) no-repeat scroll 0px 0px;
+	height:170px;
+	left:0;
+	position:fixed;
+	top:200px;
+	width:45px;
+	z-index:100;
+}
+div#feedbackPost:hover
+{
+	background-position:-45px 0px;
+}
+feedbackPost a
+{
+	display:block;
+	height:170px;
+	width:45px;
+}

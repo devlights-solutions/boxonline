@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper-easyslider{ margin-left:30px;}
+
+pre{
+		display:block;
+		font:12px "Courier New", Courier, monospace;
+		padding:10px;
+		border:1px solid #bae2f0;
+		background:#e3f4f9;	
+		margin:.5em 0;
+		width:674px;
+		}	
+
+   /* image replacement */
+        .graphic, #prevBtn, #nextBtn{
+            margin:0;
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }
+    /* // image replacement */
+			
+/* // contenedor para slider con 5 paginas */
+	#container-slider{	
+		margin:0 auto;
+		position:relative;
+		text-align:left;
+		width:830px;
+		background:url(../images/paginado.png) no-repeat bottom;
+		margin-bottom:2em;
+		margin-left:0;
+		}	
+			
+	#content-slider{
+		position:relative;
+		}	
+		
+/* // contenedor para slider con 2 paginas */
+	#container-slider2{	
+		margin:0 auto;
+		position:relative;
+		text-align:left;
+		width:830px;
+		background:url(../images/paginado2opc.png) no-repeat bottom;
+		margin-bottom:2em;
+		margin-left:0;
+		}	
+			
+	#content-slider2{
+		position:relative;
+		}				
+
+/* Easy Slider */
+
+	#slider{}	
+	#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		
+		/* 
+			CAMBIO ALTURA Y ANCHO
+		
+		*/ 
+		width:830px;
+		height:162px;
+		overflow:hidden; 
+		}	
+	#prevBtn, #nextBtn{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:-30px;
+		top:30px;
+		}	
+	#nextBtn{ 
+		left:830px;
+		}														
+	#prevBtn a, #nextBtn a{  
+		display:block;
+		width:30px;
+		height:77px;
+		background:url(../images/btn_prev.png) no-repeat 0 0;	
+		}	
+	#nextBtn a{ 
+		background:url(../images/btn_next.png) no-repeat 0 0;	
+		}
+
+/* BOTONERA PIZZAS*/
+#pizzas-1{ width:830px; margin:0 auto}
+#pizzas-1 ul{ margin:0; padding:0;}
+#pizzas-1 ul li{ height:150px; float:left; display:inline; padding:0; margin:0;}
+
+/* BTN 1*/
+#pizzas-1 li span.btn1{
+	float:left;
+	display:inline;
+	height:150px;
+	width:239px;
+	text-decoration:none;
+	background:url(../images/slider-pizzas-1.png) no-repeat scroll 0 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#pizzas-1 li span.btn1:hover{background:transparent url(../images/slider-pizzas-1.png) no-repeat scroll 0 -150px; }
+	
+	#pizzas-1 li span.btn1_active{
+	float:left;
+	display:inline;
+	height:150px;
+	width:239px;
+	text-decoration:none;
+	background:transparent url(../images/slider-pizzas-1.png) no-repeat scroll 0 -150px;
+	text-indent:-9999px;
+	cursor:pointer}
+	
+	/* BTN 2*/
+#pizzas-1 li span.btn2{
+	float:left;
+	display:inline;
+	height:150px;
+	width:201px;
+	text-decoration:none;
+	background:url(../images/slider-pizzas-1.png) no-repeat scroll  -239px 0 ;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#pizzas-1 li span.btn2:hover{background:transparent url(../images/slider-pizzas-1.png) no-repeat scroll -239px -150px; }
+	
+	#pizzas-1 li span.btn2_active{
+	float:left;
+	display:inline;
+	height:150px;
+	width:201px;
+	text-decoration:none;
+	background:transparent url(../images/slider-pizzas-1.png) no-repeat scroll -239px -150px;
+	text-indent:-9999px;
+	cursor:pointer}
+	
+	/* BTN 3*/
+#pizzas-1 li span.btn3{
+	float:left;
+	display:inline;
+	height:150px;
+	width:390px;
+	text-decoration:none;
+	background:url(../images/slider-pizzas-1.png) no-repeat scroll -440px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#pizzas-1 li span.btn3:hover{background:transparent url(../images/slider-pizzas-1.png) no-repeat scroll -440px -150px; }
+	
+	#pizzas-1 li span.btn3_active{
+	float:left;
+	display:inline;
+	height:150px;
+	width:390px;
+	text-decoration:none;
+	background:transparent url(../images/slider-pizzas-1.png) no-repeat scroll -440px -150px;
+	text-indent:-9999px;
+	cursor:pointer}

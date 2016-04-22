@@ -1,0 +1,947 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{ border:0; list-style:none}
+.left{ float:left;}
+.right{ float: right;}
+.clear{ clear:both;}
+.p_T_10{ padding-top:10px}
+.p_T_18{ padding-top:18px}
+.p_T_50{ padding-top:50px}
+.p_T_413{ padding-top:413px;}
+
+.p_B_18{ padding-bottom:38px}
+.p_B_50{ padding-bottom:50px}
+.p_r_110{ padding-right:110px;}
+.m-r-10{ padding-right:10px;}
+.m-l-5{ padding-left:5px;}
+.m-l-45{ padding-left:45px;}
+.m-l-30{ padding-left:20px;}
+
+.bitter {font: 18px/27px 'BitterBold', Arial, sans-serif; font-size:72px; color:#CA0E00;letter-spacing:-5px; text-shadow:#FFF 0 1px;}
+
+.costo {font: 18px/27px 'BitterBold', Arial, sans-serif; font-size:58px; color:#CA0E00;letter-spacing:-5px; text-shadow:#FFF 0 1px;}
+
+.costo-verde {font: 18px/27px 'BitterBold', Arial, sans-serif; font-size:58px; color:#1F7A0A;letter-spacing:-5px; text-shadow:#FFF 0 1px;}
+.costo-verde2 {font: 18px/27px 'BitterBold', Arial, sans-serif; font-size:30px; color:#1F7A0A;letter-spacing:-5px; text-shadow:#FFF 0 1px;}
+.costo-rojo2 {font: 18px/27px 'BitterBold', Arial, sans-serif; font-size:30px; color:#1F7A0A;letter-spacing:-5px; text-shadow:#FFF 0 1px;}
+
+.costo-decimales {font: 18px/27px 'BitterBold', Arial, sans-serif; font-size:40px; color:#CA0E00;letter-spacing:-5px; text-shadow:#FFF 0 1px;}
+
+.agregados-veg{ width:inherit; padding-top:10px;}
+.bg-agregados-ensal{ background:url(../images/bg-agregados-ensaladas.jpg) no-repeat;
+width:800px;
+height:544px;}
+
+.bg-agregados-wok{ background:url(../images/bg-agregados-wok.jpg) no-repeat;
+width:680px;
+height:449px;}
+		
+/*-------------------------------------------------- TIPOGRAFIAS*/
+
+.txt-corrido-28 {font: 16px 'PTSansRegular', Arial, sans-serif; color:#fff; font-weight:lighter; line-height:20px;}
+
+
+.precio{font: 18px/25px 'CandalRegular', Arial, sans-serif; font-size:72px; color:#CA0E00;
+	letter-spacing:-5px;}
+.signo{font: 18px/36px 'CandalRegular', Arial, sans-serif; font-size:36px; color:#CA0E00;
+	letter-spacing:-5px;}
+
+/*-------------------------------------------------- Estilos*/
+ul.gallery{ margin:0; padding:0}
+
+/* ------------> BG PRECIOS*/
+#precio{ background:url(../images/bg-txt.png) no-repeat; width:354px; height:490px; padding-top:40px}
+#precio-e{ background:url(../images/bg-txt.png) no-repeat; width:354px; height:530px; }
+#precio-s{ background:url(../images/bg-txt-precio-s.png) no-repeat top; width:354px; height:530px; }
+#precio-light{ background:url(../images/bg-txt-precio-light.png) no-repeat top; width:354px; height:530px; }
+
+#precio-fritas{ background:url(../images/bg-txt-fritas.jpg) no-repeat top; width:428px; height:548px;}
+
+#precio-lunch{ background:url(../images/bg-txt-lunh.png) no-repeat top; width:428px; height:530px;}
+
+#precio-mark{ background:url(../images/bg-precios-empanadas.png) no-repeat; width:354px; height:542px; }
+#precio-w{ background:url(../images/bg-txt-precios-w.png) no-repeat top; width:354px; height:530px; }
+#precio-a{ background:url(../images/bg-txt-agua.png) no-repeat; width:inherit; height:101px; padding-top:242px;}
+#precio-cer{ background:url(../images/bg-txt-cervezas.png) no-repeat; width:inherit; height:101px; padding-top:242px;}
+#precio-gaseo{ background:url(../images/bg-txt-gaseosas.png) no-repeat; width:inherit; height:101px; padding-top:242px;}
+
+#precio-vino{ background:url(../images/bg-txt-vinos.png) no-repeat; width:inherit; height:101px; padding-top:242px;}
+
+#agregados{ width:686px; margin:0 auto;}
+#agregados-wok{ width:523px; margin:0 auto; padding-top:50px}
+.inner-agregado{ padding-top:150px; width:inherit;}
+
+/*------------------> bg texto de empanadas sin mark flavour*/
+#precio-mark span.e-atun{ background:url(../images/txt-e-atun.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-ver{ background:url(../images/txt-e-ver.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-tuc{ background:url(../images/txt-e-tuc.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-sur{ background:url(../images/txt-e-sur.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-roq{ background:url(../images/txt-e-roq.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-que{ background:url(../images/txt-e-que.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-pol{ background:url(../images/txt-e-pol.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-pic{ background:url(../images/txt-e-pic.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-jyq{ background:url(../images/txt-e-jyq.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-hum{ background:url(../images/txt-e-hum.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-font{ background:url(../images/txt-e-font.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-cri{ background:url(../images/txt-e-cri.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-cor{ background:url(../images/txt-e-cor.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-cebque{ background:url(../images/txt-e-ceb.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+#precio-mark span.e-cap{ background:url(../images/txt-e-cap.png) no-repeat; width:inherit; height:144px; padding-top:356px;display:block;}
+
+
+
+/*-------------> bg texto de empanadas sin mark flavour*/
+#precio-e span.e-arabes{ background:url(../images/txt-e-arabes.png) no-repeat; width:inherit; height:112px; padding-top:388px;display:block;}
+
+#precio-e span.e-disc-esp{ background:url(../images/txt-e-disc-esp.png) no-repeat; width:inherit; height:144px; padding-top:378px;display:block;}
+
+#precio-e span.e-disc-ceb{ background:url(../images/txt-e-disc-ceb.png) no-repeat; width:inherit; height:122px; padding-top:378px;display:block;}
+
+
+
+/*-------------> bg texto de CALZONCILLOSr*/
+#precio-e span.c-especial{ background:url(../images/txt-c-especial.png) no-repeat; width:inherit; height:82px; padding-top:418px;display:block;}
+
+#precio-e span.c-fugazzeta{ background:url(../images/txt-c-fugazzeta.png) no-repeat; width:inherit; height:82px; padding-top:418px;display:block;}
+
+#precio-e span.c-granbox{ background:url(../images/txt-c-granbox.png) no-repeat; width:inherit; height:82px; padding-top:418px;display:block;}
+
+#precio-e span.c-napolitano{ background:url(../images/txt-c-napolitano.png) no-repeat; width:inherit; height:82px; padding-top:418px;display:block;}
+
+
+/*-------------> bg texto de SANDWICHES (parametros igual a calzoncillos)*/
+#precio-s span.s-simple{ background:url(../images/txt-s-simple.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.s-triplejq{ background:url(../images/txt-s-triplejamon.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.s-triple{ background:url(../images/txt-s-triple.png) no-repeat; width:inherit; height:82px; padding-top:418px;display:block;}
+
+#precio-s span.s-tripleespecial{ background:url(../images/txt-s-tripleespecial.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.s-sicobox{ background:url(../images/txt-s-sicobox.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.s-peceto{ background:url(../images/txt-s-peceto.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.s-triplecaprese{ background:url(../images/txt-s-triplecaprese.png) no-repeat; width:inherit; height:82px; padding-top:418px;display:block;}
+
+
+
+/*-------------> bg texto de HAMBURGUESAS Y LOMOS (parametros igual a calzoncillos)*/
+#precio-s span.h-comun{ background:url(../images/txt-h-comun.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.h-completa{ background:url(../images/txt-h-completa.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.h-maxibox{ background:url(../images/txt-h-maxibox.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.l-comun{ background:url(../images/txt-l-comun.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.l-completo{ background:url(../images/txt-l-completo.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.l-maxibox{ background:url(../images/txt-l-maxi.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.l-arabe{ background:url(../images/txt-l-arabe.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.l-primavera{ background:url(../images/txt-l-primavera.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-s span.l-mediterraneo{ background:url(../images/txt-l-mediterraneo.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+
+
+/*-------------> bg texto de WOK */
+#precio-w span.w-vegetales{ background:url(../images/txt-w-vegetales.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-w span.w-vegetales-arr{ background:url(../images/txt-w-vegetales-arroz.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-w span.w-vegetales-fi{ background:url(../images/txt-w-vegetales-fideos.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-w span.w-pollo-veg{ background:url(../images/txt-w-pollo-veg.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-w span.w-pollo-arr{ background:url(../images/txt-w-pollo-arroz.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-w span.w-pollo-fi{ background:url(../images/txt-w-pollo-fideos.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-w span.w-lomo-veg{ background:url(../images/txt-w-lomo-veg.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-w span.w-lomo-arr{ background:url(../images/txt-w-lomo-arroz.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-w span.w-lomo-fi{ background:url(../images/txt-w-lomo-fideos.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-w span.w-camar-veg{ background:url(../images/txt-w-camar-veg.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-w span.w-camar-arr{ background:url(../images/txt-w-camar-arroz.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-w span.w-camar-fi{ background:url(../images/txt-w-camar-fideos.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+
+
+/*-------------> bg texto de PIZZETAS LIGHT*/
+#precio-light span.pl-atun{ background:url(../images/txt-pl-atun.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-light span.pl-muzza{ background:url(../images/txt-pl-muzza.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-light span.pl-especial{ background:url(../images/txt-pl-especial.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-light span.pl-rucula{ background:url(../images/txt-pl-rucula.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+
+
+/*-------------> bg texto de SANDWICH LIGHT*/
+#precio-light span.sl-atun{ background:url(../images/txt-sl-atun.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-light span.sl-figazza{ background:url(../images/txt-sl-mixtofigaza.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+#precio-light span.sl-pollo{ background:url(../images/txt-sl-triplepollo.png) no-repeat; width:inherit; height:82px; padding-top:425px;display:block;}
+
+
+
+/*-------------> bg texto de ENSALADAS*/
+#precio-light span.en-delagranja{ background:url(../images/txt-en-delagranja.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-light span.en-gourmet{ background:url(../images/txt-en-gourmet.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-light span.en-marina{ background:url(../images/txt-en-marina.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-light span.en-caprese{ background:url(../images/txt-en-caprese.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+#precio-light span.en-tropical{ background:url(../images/txt-en-tropical.png) no-repeat; width:inherit; height:82px; padding-top:390px;display:block;}
+
+
+
+/*-------------> bg IMG de AGREGADOS*/
+#agregados span.ensalada1{ background:url(../images/spry-agregados-ensaladas.png) no-repeat scroll 0 0; width:127px; height:143px; display:block}
+
+#agregados span.ensalada2{ background:url(../images/spry-agregados-ensaladas.png) no-repeat scroll -127px 0; width:128px; height:143px; display:block}
+
+#agregados span.ensalada3{ background:url(../images/spry-agregados-ensaladas.png) no-repeat scroll -255px 0; width:128px; height:143px; display:block}
+
+#agregados span.ensalada4{ background:url(../images/spry-agregados-ensaladas.png) no-repeat scroll -383px 0; width:162px; height:143px; display:block}
+
+#agregados span.ensalada5{ background:url(../images/spry-agregados-ensaladas.png) no-repeat scroll -545px 0; width:128px; height:143px; display:block}
+
+#agregados span.ensalada6{ background:url(../images/spry-agregados-ensaladas.png) no-repeat scroll -673px 0; width:128px; height:143px; display:block}
+
+#agregados span.ensalada7{ background:url(../images/spry-agregados-ensaladas.png) no-repeat scroll -801px 0; width:128px; height:143px; display:block}
+
+#agregados span.ensalada8{ background:url(../images/spry-agregados-ensaladas.png) no-repeat scroll -929px 0; width:128px; height:143px; display:block}
+
+#agregados span.ensalada9{ background:url(../images/spry-agregados-ensaladas.png) no-repeat scroll -1057px 0; width:128px; height:143px; display:block}
+
+/*AGREGADOS WOK*/
+#agregados-wok span.wok1{ background:url(../images/spry-agregados-wok.png) no-repeat scroll 0 0; width:127px; height:143px; display:block}
+
+#agregados-wok span.wok2{ background:url(../images/spry-agregados-wok.png) no-repeat scroll -127px 0; width:128px; height:143px; display:block}
+
+#agregados-wok span.wok3{ background:url(../images/spry-agregados-wok.png) no-repeat scroll -255px 0; width:128px; height:143px; display:block}
+
+#agregados-wok span.wok4{ background:url(../images/spry-agregados-wok.png) no-repeat scroll -385px 0; width:128px; height:143px; display:block}
+
+#agregados-wok span.wok5{ background:url(../images/spry-agregados-wok.png) no-repeat scroll -511px 0; width:128px; height:143px; display:block}
+
+
+
+
+
+
+/*-------------> bg texto de FRITAS*/
+#precio-fritas span.f-papas{ background:url(../images/txt-fritas-papas.png) no-repeat; width:inherit; height:72px; padding-top:368px;display:block;}
+
+#precio-fritas span.f-mandibox{ background:url(../images/txt-fritas-mandibox.png) no-repeat; width:inherit; height:72px; padding-top:368px;display:block;}
+
+#precio-fritas span.f-apuai{ background:url(../images/txt-fritas-apuai.png) no-repeat; width:inherit; height:72px; padding-top:368px;display:block;}
+
+#precio-fritas span.f-smile{ background:url(../images/txt-fritas-smile.png) no-repeat; width:inherit; height:72px; padding-top:368px;display:block;}
+
+
+/*-------------> bg texto de PROMOS*/
+#precio-s span.promo-p1{ background:url(../images/txt-promo-p1.png) no-repeat; width:inherit; height:93px; padding-top:437px;display:block;}
+
+#precio-s span.promo-p2{ background:url(../images/txt-promo-p2.png) no-repeat; width:inherit; height:93px; padding-top:437px;display:block;}
+
+#precio-s span.promo-p3{ background:url(../images/txt-promo-p3.png) no-repeat; width:inherit; height:93px; padding-top:437px;display:block;}
+
+#precio-s span.promo-p4{ background:url(../images/txt-promo-p4.png) no-repeat; width:inherit; height:93px; padding-top:437px;display:block;}
+
+#precio-s span.promo-p5{ background:url(../images/txt-promo-p5.png) no-repeat; width:inherit; height:93px; padding-top:437px;display:block;}
+
+#precio-s span.promo-p6{ background:url(../images/txt-promo-p6.png) no-repeat; width:inherit; height:93px; padding-top:437px;display:block;}
+
+#precio-s span.promo-combo5{ background:url(../images/txt-promo-combo5.png) no-repeat; width:inherit; height:93px; padding-top:437px;display:block;}
+
+
+/*-------------> bg texto de LUNCH*/
+#precio-lunch span.lu-premium{ background:url(../images/txt-lunch-premium.png) no-repeat; width:inherit; height:82px; padding-top:448px;display:block;}
+
+#precio-lunch span.lu-brindis{ background:url(../images/txt-lunch-brindis.png) no-repeat; width:inherit; height:82px; padding-top:448px;display:block;}
+
+#precio-lunch span.lu-special{ background:url(../images/txt-lunch-special.png) no-repeat; width:inherit; height:82px; padding-top:448px;display:block;}
+
+
+/*-------------> bg texto de BEBIDAS*/
+
+#precio-a span.a1{ background:url(../images/txt-a1.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-a span.a2{ background:url(../images/txt-a2.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-a span.a3{ background:url(../images/txt-a3.png) no-repeat; width:368px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-a span.a4{ background:url(../images/txt-a4.png) no-repeat; width:368px; margin-right:30px; float:left; height:100px;  display:block;}
+
+/*Cervezas*/
+
+
+#precio-cer span.c1{ background:url(../images/txt-c1.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-cer span.c2{ background:url(../images/txt-c2.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-cer span.c3{ background:url(../images/txt-c3.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-cer span.c4{ background:url(../images/txt-c4.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-cer span.c5{ background:url(../images/txt-c5.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-cer span.c6{ background:url(../images/txt-c6.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+/*Gaseosas*/
+
+#precio-gaseo span.g1{ background:url(../images/txt-g1.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-gaseo span.g2{ background:url(../images/txt-g2.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-gaseo span.g3{ background:url(../images/txt-g3.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-gaseo span.g4{ background:url(../images/txt-g4.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-gaseo span.g5{ background:url(../images/txt-g5.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-gaseo span.g6{ background:url(../images/txt-g6.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-gaseo span.g7{ background:url(../images/txt-g7.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-gaseo span.g8{ background:url(../images/txt-g8.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-gaseo span.g9{ background:url(../images/txt-g9.png) no-repeat; width:317px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-gaseo span.g10{ background:url(../images/txt-g10.png) no-repeat; width:317px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-gaseo span.g11{ background:url(../images/txt-g11.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-gaseo span.g12{ background:url(../images/txt-g12.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-gaseo span.g13{ background:url(../images/txt-g13.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+/*Vinos*/
+
+#precio-vino span.v1{ background:url(../images/txt-v1.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-vino span.v2{ background:url(../images/txt-v2.png) no-repeat; width:316px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-vino span.v3{ background:url(../images/txt-v3.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-vino span.v4{ background:url(../images/txt-v4.png) no-repeat; width:316px; margin-right:30px; float:left; height:100px;  display:block;}
+
+#precio-vino span.v5{ background:url(../images/txt-v5.png) no-repeat; width:283px; margin-right:30px; float:left; height:100px;  display:block;}
+
+
+
+/* UBICACION dentro de #precios*/
+
+.inner-precio-p{ padding-top:390px;}
+.inner-precio-e{ width:inherit}
+.inner-precio-bebidas{ float:left; text-align:left;}
+
+
+.pesos{ background:url(../images/signo-peso.png) no-repeat left; height:49px; padding-left:22px; width:90px; text-align:left;}
+.pesos-verde{ background:url(../images/signo-peso-verde.png) no-repeat left; height:49px; padding-left:22px}
+.pesos-verde2{ background:url(../images/signo-peso-verde2.png) no-repeat left; height:20px; padding-left:22px}
+.pesos-rojo2{ background:url(../images/signo-peso-rojo2.png) no-repeat left; height:20px; padding-left:22px}
+.w-peso{ width:260px; margin-left:50px;}
+.w-peso-e{ width:270px; margin:0 auto}
+.w-peso-c{ width:90px; margin:0 auto}
+.w-peso-agre{ width:50px; margin:0 auto}
+.w-peso-promo{ width:90px; margin-right:50px; float:right;}
+.w-peso-lunch{ width:372px;margin:0 auto;}
+.w-precio-bebidas{ width:inherit; padding-top:10px; height:100px;}
+
+/* bg texto de pizzas*/
+
+#precio span.p-muzza{ background:url(../images/txt-p-muzzarella.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-anchoa{ background:url(../images/txt-p-anchoa.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-atun{ background:url(../images/txt-p-atun.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-cala{ background:url(../images/txt-p-calabresa.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-camar{ background:url(../images/txt-p-camarones.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-caprese{ background:url(../images/txt-p-caprese.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-especial{ background:url(../images/txt-p-especial.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-fuga{ background:url(../images/txt-p-fugazzeta.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-fuga-panc{ background:url(../images/txt-p-fug-panc.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-granbox{ background:url(../images/txt-p-granbox.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-humita{ background:url(../images/txt-p-humita.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-napo{ background:url(../images/txt-p-napolitana.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-primav{ background:url(../images/txt-p-primavera.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-roque{ background:url(../images/txt-p-roquefort.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-rucu{ background:url(../images/txt-p-rucu.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-provolone{ background:url(../images/txt-p-provolone.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+#precio span.p-tropical{ background:url(../images/txt-p-tropical.png) no-repeat; width:313px; height:460px; margin-left:8px; display:block;}
+
+
+/*-------------------------------------------------- SPRY IMG AGUAS*/
+#img-bebidas{ width:372px; height:524px}
+#img-bebidas2{ width:360px; height:524px}
+#img-aguas{ width:372px; height:524px}
+#img-aguas span.a1{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-img-aguas.png) no-repeat scroll 0 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+#img-aguas span.a2{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-img-aguas.png) no-repeat scroll -372px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-aguas span.a3{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-img-aguas.png) no-repeat scroll -744px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-aguas span.a4{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-img-aguas.png) no-repeat scroll -1117px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+
+/*------- CERVEZAS IMG*/
+#img-bebidas span.c1{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-img-cervezas.png) no-repeat scroll 0 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+#img-bebidas span.c2{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-img-cervezas.png) no-repeat scroll -372px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas span.c3{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-img-cervezas.png) no-repeat scroll -744px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas span.c4{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-img-cervezas.png) no-repeat scroll -1117px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas span.c5{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-img-cervezas.png) no-repeat scroll -1488px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas span.c6{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-img-cervezas.png) no-repeat scroll -1859px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+/*------- CERVEZAS IMG*/
+#img-bebidas span.v1{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-vino.png) no-repeat scroll 0 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+#img-bebidas span.v2{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-vino.png) no-repeat scroll -372px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas span.v3{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-vino.png) no-repeat scroll -744px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas span.v4{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-vino.png) no-repeat scroll -1117px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas span.v5{
+	float:left;
+	display:block;
+	height:524px;
+	width:372px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-vino.png) no-repeat scroll -1488px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+/*------- GASEOSAS IMG*/
+/*COCOA-COLA*/
+#img-bebidas2 span.coca1{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-coca.png) no-repeat scroll 0 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+
+	#img-bebidas2 span.coca2{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-coca.png) no-repeat scroll -372px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas2 span.coca3{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-coca.png) no-repeat scroll -744px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas2 span.coca4{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-coca.png) no-repeat scroll -1080px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas2 span.coca5{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-coca.png) no-repeat scroll -1433px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas2 span.coca6{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-coca.png) no-repeat scroll -1798px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+
+/*SPRITE*/
+#img-bebidas2 span.sprite1{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-sprite.png) no-repeat scroll 0 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+
+	#img-bebidas2 span.sprite2{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-sprite.png) no-repeat scroll -372px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas2 span.sprite3{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-sprite.png) no-repeat scroll -717px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas2 span.sprite4{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-sprite.png) no-repeat scroll -1080px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+
+/*FANTA*/
+#img-bebidas2 span.fanta1{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-fanta.png) no-repeat scroll 0 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+
+	#img-bebidas2 span.fanta2{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-fanta.png) no-repeat scroll -372px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	#img-bebidas2 span.fanta3{
+	float:left;
+	display:block;
+	height:524px;
+	width:360px;
+	text-decoration:none;
+	background:url(../images/spry-bebida-fanta.png) no-repeat scroll -717px 0;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+	
+	
+
+/*-------------------------------------------------- MARK FLAVOUR*/
+.img-markflavour{ background:url(../img-markflavour.png) no-repeat; width:974px; height:594px;}
+	.inner-markflavour{ padding:458px 55px 0 0; width:262px; float:right;}
+
+/*-------------------------------------------------- EMPANADAS*/
+.bg-txt_arabes{ background:url(../images/txt-empanadas-arabes.png) no-repeat; width:354px; height:532px;}
+
+.bg-txt_criollas{ background:url(../images/txt-empanadas-criollas.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-cordobesas{ background:url(../images/txt-empanadas-cordobesas.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-picantes{ background:url(../images/txt-empanadas-picantes.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-tucumanas{ background:url(../images/txt-empanadas-tucumanas.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-arabes{ background:url(../images/txt-empanadas-arabes.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-pollo{ background:url(../images/txt-empanadas-pollo.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-surubi{ background:url(../images/txt-empanadas-surubi.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-atun{ background:url(../images/txt-empanadas-atun.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-humita{ background:url(../images/txt-empanadas-humitas.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-verduras{ background:url(../images/txt-empanadas-verduras.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-queso{ background:url(../images/txt-empanadas-queso.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-jyq{ background:url(../images/txt-empanadas-jamon-queso.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-cebolla-queso{ background:url(../images/txt-empanadas-quesocebolla.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-roquefort{ background:url(../images/txt-empanadas-roquefort.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-fontina{ background:url(../images/txt-empanadas-fontina.png) no-repeat; width:354px; height:543px;}
+
+.bg-txt-caprese{ background:url(../images/txt-empanadas-caprese.png)no-repeat; width:354px; height:543px;}
+
+/*-------------------------------------------------- PROMO PACKS*/
+.txt-promo-pack1{ background:url(../images/txt-pack-1.png) no-repeat; width:inherit; height:539px;}
+.txt-promo-pack2{ background:url(../images/txt-pack-2.png) no-repeat; width:inherit; height:539px;}
+
+.txt-promo-pack3{ background:url(../images/txt-pack-3.png) no-repeat; width:inherit; height:539px;}
+
+.txt-promo-pack4{ background:url(../images/txt-pack-4.png) no-repeat; width:inherit; height:539px;}
+
+.txt-promo-pack5{ background:url(../images/txt-pack-5.png) no-repeat; width:inherit; height:539px;}
+
+.txt-promo-pack6{ background:url(../images/txt-pack-6.png) no-repeat; width:inherit; height:539px;}
+
+/*-------------------------------------------------- PIZZAS*/
+.txt-pizzas-musa{ background:url(../images/txt-pizzas-muzarella.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-fugazzeta{ background:url(../images/txt-pizzas-fugazzeta.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-humita{ background:url(../images/txt-pizzas-humita.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-napo{ background:url(../images/txt-pizzas-napolitana.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-fugazzeta-panceta{ background:url(../images/txt-pizzas-fugazzeta-panceta.png)no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-roque{ background:url(../images/txt-pizzas-roquefort.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-calabresa{ background:url(../images/txt-pizzas-calabresa.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-anchoa{ background:url(../images/txt-pizzas-anchoa.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-caprese{ background:url(../images/txt-pizzas-caprese.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-tomate-provolone{ background:url(../images/txt-pizzas-tomate-provolone.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-primavera{ background:url(../images/txt-pizzas-primavera.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-tropical{ background:url(../images/txt-pizzas-tropical.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-atun{ background:url(../images/txt-pizzas-atun.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-rucula{ background:url(../images/txt-pizzas-rucula.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-especial{ background:url(../images/txt-pizzas-especial.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-camarones{ background:url(../images/txt-pizzas-camarones.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzas-granbox{ background:url(../images/txt-pizzas-granbox.png) no-repeat; width:inherit; height:539px;}
+
+.opciones-pizzaslight{ background:url(../images/opciones-pizzaslight.png) no-repeat; width:562px; height:148px; padding-top:43px;}
+
+/*-------------------------------------------------- PIZZETAS LIGHT*/
+.txt-pizzaslight-muzza{ background:url(../images/txt-pizza-ligh-muza.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzaslight-rucula{ background:url(../images/txt-pizza-ligh-rucula.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzaslight-especial{ background:url(../images/txt-pizza-ligh-especial.png) no-repeat; width:inherit; height:539px;}
+
+.txt-pizzaslight-atun{ background:url(../images/txt-pizza-ligh-atun.png) no-repeat; width:inherit; height:539px;}
+
+
+/*-------------------------------------------------- LOMOS*/
+.txt-lomo-comun{ background:url(../images/txt-lomo-comun.png) no-repeat; width:inherit; height:539px;}
+
+.txt-lomo-completo{ background:url(../images/txt-lomo-completo.png) no-repeat; width:inherit; height:539px;}
+
+.txt-lomo-arabe{ background:url(../images/txt-lomo-arabe.png) no-repeat; width:inherit; height:539px;}
+
+.txt-lomo-maxibox{ background:url(../images/txt-lomo-maxi.png) no-repeat; width:inherit; height:539px;}
+
+.txt-lomo-primavera{ background:url(../images/txt-lomo-primavera.png) no-repeat; width:inherit; height:539px;}
+
+.txt-lomo-mediterraneo{ background:url(../images/txt-lomo-mediterraneo.png) no-repeat; width:inherit; height:539px;}
+
+.txt-lomo-chiapatta{ background:url(../images/txt-lomo-completo.png) no-repeat; width:inherit; height:539px;}
+
+/*-------------------------------------------------- HAMBURGUESAS*/
+.txt-hambur-comun{ background:url(../images/txt-hambur-comun.png) no-repeat; width:inherit; height:539px;}
+
+.txt-hambur-completa{ background:url(../images/txt-hambur-completa.png) no-repeat; width:inherit; height:539px;}
+
+.txt-hambur-maxibox{ background:url(../images/txt-hambur-maxibox.png) no-repeat; width:inherit; height:539px;}
+
+.opciones-lomos-hambur{ background:url(../images/opciones-fritas.png) no-repeat; width:562px; height:180px;}
+
+/*-------------------------------------------------- SANDWICHES*/
+.txt-sndw-simple{ background:url(../images/txt-sandwich-simple.png) no-repeat; width:inherit; height:539px;}
+
+.txt-sndw-triplejamon{ background:url(../images/txt-sandwich-triplejamon.png) no-repeat; width:inherit; height:539px;}
+
+.txt-sndw-peceto{ background:url(../images/txt-sandwich-peceto.png) no-repeat; width:inherit; height:539px;}
+
+.txt-sndw-triple{ background:url(../images/txt-sandwich-triple.png) no-repeat; width:inherit; height:539px;}
+
+.txt-sndw-especial{ background:url(../images/txt-sandwich-tripleespecial.png) no-repeat; width:inherit; height:539px;}
+
+.txt-sndw-socibox{ background:url(../images/txt-sandwich-sicobox.png) no-repeat; width:inherit; height:539px;}
+
+.txt-sndw-caprese{ background:url(../images/txt-sandwich-triplecaprese.png) no-repeat; width:inherit; height:539px;}
+
+.opciones-sandwlight{ background:url(../images/opciones-sandwlight.png) no-repeat; width:562px; height:137px; padding-top:43px;}
+
+/*-------------------------------------------------- SANDWICHES LIGHT*/
+.txt-sndw-light-figaza{ background:url(../images/txt-sndwlight-mixtofigaza.png) no-repeat; width:inherit; height:539px;}
+
+.txt-sndw-light-pollo{ background:url(../images/txt-sndwlight-triple-pollo.png) no-repeat; width:inherit; height:539px;}
+
+.txt-sndw-light-atun{ background:url(../images/txt-sndwlight-triple-atun.png) no-repeat; width:inherit; height:539px;}
+
+/*-------------------------------------------------- calzoncillos*/
+.txt-calzon-fugaceta{ background:url(../images/txt-calzoncillo-especial.png) no-repeat; width:inherit; height:539px;}
+
+.txt-calzon-napolitano{ background:url(../images/txt-calzoncillo-napolitano.png) no-repeat; width:inherit; height:539px;}
+
+
+
+/*-------------------------------------------------- WOK*/
+.txt-wok-veg{ background:url(../images/txt-wok-vegetales.png) no-repeat; width:inherit; height:539px;}
+
+.txt-wok-veg-arroz{ background:url(../images/txt-wok-vegetales-arroz.png) no-repeat; width:inherit; height:539px;}
+
+.txt-wok-veg-fideos{ background:url(../images/txt-wok-vegetales-fideos.png) no-repeat; width:inherit; height:539px;}
+
+.txt-wok-pollo-veg{ background:url(../images/txt-wok-pollo-veg.png) no-repeat; width:inherit; height:539px;}
+
+.txt-wok-pollo-arroz{ background:url(../images/txt-wok-pollo-veg-arroz.png) no-repeat; width:inherit; height:539px;}
+
+.txt-wok-pollo-fideos{ background:url(../images/txt-wok-pollo-veg-fideos.png) no-repeat; width:inherit; height:539px;}
+
+.txt-wok-lomo-veg{ background:url(../images/txt-wok-lomo-veg.png) no-repeat; width:inherit; height:539px;}
+
+.txt-wok-lomo-arroz{ background:url(../images/txt-wok-lomo-arroz.png) no-repeat; width:inherit; height:539px;}
+
+.txt-wok-lomo-fideos{ background:url(../images/txt-wok-lomo-fideos.png) no-repeat; width:inherit; height:539px;}
+
+.txt-wok-camarones-veg{ background:url(../images/txt-wok-camarones-ver.png) no-repeat; width:inherit; height:539px;}
+
+.txt-wok-camarones-arroz{ background:url(../images/txt-wok-camarones-arroz.png) no-repeat; width:inherit; height:539px;}
+
+.txt-wok-camarones-fideos{ background:url(../images/txt-wok-camarones-fideos.png) no-repeat; width:inherit; height:539px;}
+
+.inner-txt-wok{ height:117px; padding-top:435px; text-align:center;}
+
+/*-------------------------------------------------- LUNCH*/
+.bg-txt-lunchpremium{ background:url(../images/txt-lunch-premium.png) no-repeat; width:inherit; height:511px;}
+
+.bg-txt-lunchspecial{ background:url(../images/txt-lunch-special.png) no-repeat; width:inherit; height:511px;}
+
+.bg-txt-lunchbrindis{ background:url(../images/txt-lunch-brindis.png) no-repeat; width:inherit; height:511px;}
+
+	.inner-txt-lunch{ padding-top:450px; width:406px; padding-left:20px;}
+	
+/*-------------------------------------------------- Ensaladas*/
+.bg-txt_ensalada-granja{ background:url(../images/txt-ensalada-granja.png) no-repeat; width:354px; height:532px;}
+
+.txt_ensalada-granja{ background:url(../images/txt-ensaladas-granja.png) no-repeat; width:354px; height:532px;}
+
+.txt_ensalada-marina{ background:url(../images/txt-ensaladas-marina.png) no-repeat; width:354px; height:532px;}
+
+.txt_ensalada-caprese{ background:url(../images/txt-ensaladas-caprese.png) no-repeat; width:354px; height:532px;}
+
+.txt_ensalada-tropical{ background:url(../images/txt-ensaladas-tropical.png) no-repeat; width:354px; height:532px;}
+
+.txt_ensalada-gourmet{ background:url(../images/txt-ensaladas-gourmet.png) no-repeat; width:354px; height:532px;}
+
+/*-------------------------------------------------- PAPS FRITAS*/
+.txt-papas-fritas{ background:url(../images/txt-papas-fritas.jpg) no-repeat; width:inherit; height:104px; padding-top:444px;}
+
+.txt-papas-mandi{ background:url(../images/txt-papas-manidbox.jpg) no-repeat; width:inherit; height:104px; padding-top:444px;}
+
+.txt-papas-apuai{ background:url(../images/txt-papas-apuai.jpg) no-repeat; width:inherit; height:104px; padding-top:444px;}
+
+.txt-papas-smiles{ background:url(../images/txt-papas-smile.jpg) no-repeat; width:inherit; height:104px; padding-top:444px;}

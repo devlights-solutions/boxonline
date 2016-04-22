@@ -1,0 +1,210 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url(../images/bg-amarillo.jpg);
+	margin:0 auto;
+	text-align:center;
+	height:: 443;
+}
+
+a{
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	cursor:pointer;
+	}
+	
+	
+.tit_comit {background:url(../images/bg_tit_comite.png) repeat-x; height:23px; width:460px ; font-family:Arial, Helvetica, sans-serif; color:#0D5993; text-align:left}
+
+
+
+/*-------------------------------------------------- BOTONERA */
+#bg_bot1 a { background:url(../images/bot1.png) no-repeat;
+width:227px; height:50px; float:left; margin-left:20px;}
+
+
+#bg_bot1 a:hover { background:url(../images/bot1_hover.png) no-repeat;
+width:227px; height:50px; float:left; margin-left:20px;}
+
+
+
+#bg_bot2 a{ background:url(../images/bot_2.png) no-repeat;
+width:235px; height:50px; float:left;}
+
+
+#bg_bot2 a:hover{ background:url(../images/bot_2_hover.png) no-repeat;
+width:235px; height:50px; float:left;}
+
+
+#bg_bot3 a{ background:url(../images/bot_3.png) no-repeat;
+width:235px; height:50px; float:left;}
+
+#bg_bot3 a:hover{ background:url(../images/bot_3_hover.png) no-repeat;
+width:235px; height:50px; float:left;}
+
+
+#bg_bot4 a{ background:url(../images/bot_4.png) no-repeat;
+width:235px; height:50px; float:left;}
+
+#bg_bot4 a:hover{ background:url(../images/bot_4_hover.png) no-repeat;
+width:235px; height:50px; float:left;}
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------- GLOBALES */
+
+.left{ float:left;}
+.right{ float: right;}
+.clear{ clear:both;}
+.centrar{ margin:0 auto;}
+.align-left{ text-align:left;}
+.align-right{ text-align:right;}
+.align-center{ text-align:center;}
+.display{display:block;}
+
+
+
+/*-------------------------------------------------- BGS */
+
+.bg1 {background:url(../images/bg-amarillo.jpg) repeat-x; background-color:#FFF;}
+
+
+.bg_botazul {background:url(../images/bg_bot_azul.png) right no-repeat; width: 250px; height:100px;}
+
+#bg_foot {background:url(../images/bg_2.png) repeat-x; height: 50px;}
+
+
+#bg_resumen { background:#FFF; border:#CCC  1px solid;}
+
+
+/*-------------------------------------------------- MARGENES Y PADDINGS */
+
+.p_t_5 { padding-top:5px;}
+.p_t_10 { padding-top:10px;}
+.p_t_20 { padding-top:20px;}
+.p_t_30 { padding-top:30px;}
+.p_t_40 { padding-top:40px;}
+
+.p_b_10 { padding-bottom:10px;}
+.p_b_20 { padding-bottom:20px;}
+.p_b_30 { padding-bottom:30px;}
+.p_b_40 { padding-bottom:40px;}
+
+
+.m_l_10 {margin-left:10px;}
+.m_l_15 {margin-left:15px;}
+.m_l_18 {margin-left:18px;}
+.m_l_20 {margin-left:20px;}
+.m_l_30 {margin-left:30px;}
+.m_l_40 {margin-left:40px;}
+.m_l_50 {margin-left:50px;}
+.m_l_60 {margin-left:60px;}
+
+.m_t_40 {margin-top:40px;}
+.m_t_30 {margin-top:30px;}
+.m_t_20 {margin-top:20px;}
+
+
+
+
+
+.m_r_10 {margin-right:10px;}
+.m_r_20 {margin-right:20px;}
+.m_r_30 {margin-right:30px;}
+.m_r_40 {margin-right:40px;}
+.m_r_50 {margin-right:50px;}
+.m_r_60 {margin-right:60px;}
+.m_r_70 {margin-right:70px;}
+
+/*-------------------------------------------------- TXT*/
+
+.txt_blanco {font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#FFF;}
+
+
+.txt {font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+
+.txt_1 {font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+
+.txt_azul {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#990000;}
+
+.txt_gris { color:#666;}
+
+.txt_foot {font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#666}
+
+.txt_tit_azul {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#990000; font-weight:bold;}
+
+.bold {font-weight:bold;}
+
+.txt_ins {font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold;}
+
+.txt_ins1 {font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+
+
+.txt_ins_tit {font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#990000;}
+
+#tit { margin-left:20px; font-family:Arial, Helvetica, sans-serif; color:#990000; text-align:left; font-weight:bold; font-size:16px;}
+
+
+.tit { font-family:Arial, Helvetica, sans-serif; color:#990000; font-size:18px;}
+
+
+
+
+/*-------------------------------------------------- acordeon*/
+
+#basic-accordian{
+	margin-left:20px;
+	width:460px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif; color:#333; font-size:12px;}
+
+
+.accordion_headings{
+	height: 25px;
+	
+	font-family:Arial, Helvetica, sans-serif; color:#FFF; font-size:12px;
+
+	background:url(../images/bg_acordeon_1.png) repeat-x;
+	border-bottom:#FFF solid 1px;
+	
+	cursor:pointer;
+	
+}
+
+.accordion_headings:hover{
+	background:url(../images/bg_acordeon.png) repeat-x;
+}
+
+.accordion_child{
+	padding:15px;
+	background-color:#FFF;
+	border:#CCC solid 1px;
+	
+    
+}
+
+.header_highlight{
+	background:url(../images/bg_acordeon.png) repeat-x;
+}
+
+
+.errora {
+	color:#FF0000;
+	font-size:14px;
+}
+
+#bienvenido{
+	margin-right:20px;
+	color:#990000;
+	
+}
+#fechas{
+	display:none;
+}

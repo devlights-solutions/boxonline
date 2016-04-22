@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{ margin:0; padding:0; border:0;}
+body{ font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:12px; margin:0}
+.left{ float:left;}
+.right{ float: right;}
+.clear{ clear:both;}
+
+.w-800{ background:url(../images/bg-contacto.gif) repeat-y; width:800px; text-align:center}
+.w-530{ background:url(../images/bg-contacto2.jpg) repeat-y; width:530px; text-align:center; margin:0;}
+.w-457{ width:457px; margin:0 auto; text-align:left}
+.p-top30{ padding-top:30px;}
+.m-l-155{ margin-left:155px;}
+
+.label{ width:inherit; text-align:left}
+
+.campo{
+	width:457px;
+	height:36px;
+	margin-bottom:5px;
+	background:url(../images/form-campo.jpg) no-repeat;
+	padding:2px;
+	font-size:14px;}
+	
+.codigo{ width:150px;
+	height:77px;
+	background:#FFF;
+	border: 1px solid #a4a4a4;
+	float:left;
+	font-size:14px;
+	}
+	
+#comentario{ width:457px; height:139px;
+	background:url(../images/form-textarea.jpg) no-repeat;
+	padding:10px;
+	font-size:14px;
+	}
+	
+#enviar{
+	width:129px;
+	height:77px;
+	background:#a4a4a4;
+	border: 1px solid #a4a4a4;
+	background-image:url(../images/btn-enviar.jpg);
+	text-indent:-9999px;
+	float:left;}
